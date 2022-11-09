@@ -1,0 +1,61 @@
+#head{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#form{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#form input[type='text']{
+    width:150px;
+    height: 20px;
+    font-size: 14px;
+    border:1px solid pink;
+    border-radius: 5px;
+    padding: 10px;
+}
+#form button{
+    width:150px;
+    height: 40px;
+    font-size: 14px;
+    border:1px solid pink;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color:white
+}
+#form button:hover{ 
+    background-color: darkcyan;
+}
+#form button:active{
+    border:4px solid red;
+}
+
+#listDiv{
+    width:900px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#listDiv .eleman{
+    width:660px;
+    height:60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:10px;
+}
+#listDiv .eleman .area{
+    width:165px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+}
